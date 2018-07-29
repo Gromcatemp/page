@@ -17,14 +17,14 @@
 		require 'PHPMailer/PHPMailerAutoload.php';
 					$mail = new PHPMailer;
 
-					$mail->From = 'manonluis23@gmail.com';
+					$mail->From = 'luisjavier261@gmail.com';
 					$mail->FromName = 'Gromcagroup';
 
 					$mail->addAddress($data['email'], $data['nombre']); // Add a recipient
 					$mail->addReplyTo($data['email'], 'Gromcagroup');
 
 
-					$mail->addBCC('manonluis23@gmail.com');
+					$mail->addBCC('gromcagroup.com.do');
 					$mail->isHTML(true); // Set email format to HTML
 					$mail->CharSet = 'UTF-8';
 					$mail->Subject = 'Gracias por tu interés, te responderemos pronto';
