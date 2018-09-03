@@ -177,6 +177,18 @@ p {
         color: #fff;
     }
 
+       header .topmenu .top-data li i.top-social.fa-linkedin,
+    .social-icon-f li i.top-social.fa-linkedin {
+        border: 2px solid #0077B5;
+        color: #0077B5;
+    }
+
+    header .topmenu .top-data li i.top-social.fa-linkedin:hover,
+    .social-icon-f li i.top-social.fa-linkedin:hover {
+        background: #0077B5;
+        color: #fff;
+    }
+
     header .topmenu .top-data li a.log-top {
         text-decoration: none;
         font-size: 15px;
