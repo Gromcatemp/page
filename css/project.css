@@ -71,12 +71,12 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
 @media(max-width: 767px) {
     .project-p2 .project-p2-cont .project-p2-desc h4 {
-        font-size: 20px;
+        font-size: 17px;
     }
     .project-p2 .project-p2-cont .project-p2-desc {
         position: absolute;
         overflow: visible;
-        margin-top: 20%;
+        margin-top: 14%;
         margin-left: 10%;
         padding: 20px;
     }
